@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acervo & Índice Técnico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho Superior -->
+    <header class="top-header">
+        <button id="menu-toggle" class="menu-btn" aria-label="Abrir menu">&#9776;</button>
+        <div class="header-titles">
+            <h1>Portal de Referência & Documentação</h1>
+            <span class="subtitle">Índice Geral de Assuntos, Normas e Projetos</span>
+        </div>
+    </header>
+
+    <!-- Container Principal -->
+    <div class="main-wrapper">
+        
+        <!-- Menu Lateral Esquerdo -->
+        <aside id="sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <h2>Índice de Assuntos</h2>
+                <input type="text" id="search-input" placeholder="Filtrar seção...">
+            </div>
+            
+            <nav>
+                <ul id="nav-list" class="nav-list">
+                    <li><a href="#visao-geral" class="nav-link active" data-section="visao-geral">01. Visão Geral</a></li>
+                    <li><a href="#manuais" class="nav-link" data-section="manuais">02. Manuais Técnicos</a></li>
+                    <li><a href="#legislacao" class="nav-link" data-section="legislacao">03. Legislação</a></li>
+                    <li><a href="#normas" class="nav-link" data-section="normas">04. Normas & Procedimentos</a></li>
+                    <li><a href="#prototipos" class="nav-link" data-section="prototipos">05. Protótipos & Sistemas</a></li>
+                    <li><a href="#agenda" class="nav-link" data-section="agenda">06. Agenda & Cronograma</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Área de Conteúdo -->
+        <main id="content-area" class="content-area">
+            <!-- O conteúdo será carregado dinamicamente pelo script.js -->
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
